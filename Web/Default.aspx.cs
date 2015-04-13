@@ -16,7 +16,7 @@ public partial class _Default : PageBase
         if (!IsPostBack)
         {
             // Set the selected menu item in Master page.
-            Master.TheMenuInMasterPage.SelectedItem = "home";
+            Master.TheMenuInMasterPage.SelectedItem = "home"; 
 
             // Register javascript that opens popup windows.
             base.RegisterOpenWindowJavaScript();
